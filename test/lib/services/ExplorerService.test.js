@@ -16,6 +16,6 @@ describe("Pruebas de la clase ExplorerService", () => {
     test("3) Comprobar metodo getExplorersUsernamesByMission", () => {
         const explorers =Reader.readJsonFile("./explorers.json");
         const explorersUsernamesByMission =ExplorerService.getExplorersUsernamesByMission(explorers, "node");
-        expect(explorersUsernamesByMission[0]).toBe("ajolonau2ta1");
+        expect(explorersUsernamesByMission[0]).toBe("ajolonauta1");
     });
 });
